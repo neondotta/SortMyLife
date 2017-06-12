@@ -11,13 +11,19 @@ import { HomeComponent } from './home/home.component';
 import { BookFormComponent } from './books/book-form/book-form.component';
 
 import {BooksService} from './books/books.service';
+import { MoviesComponent } from './movies/movies.component';
+import { MovieFormComponent } from './movies/movie-form/movie-form.component';
+import { FormsComponent } from './forms/forms.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BooksComponent,
     HomeComponent,
-    BookFormComponent
+    BookFormComponent,
+    MoviesComponent,
+    MovieFormComponent,
+    FormsComponent
   ],
   imports: [
     BrowserModule,
