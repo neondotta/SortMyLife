@@ -10,6 +10,10 @@ const appRoutes: Routes = [
     component: BooksComponent
   },
   {
+    path: 'home',
+    component: HomeComponent
+  },
+  {
     path: '',
     redirectTo: '/home',
     pathMatch: 'full'

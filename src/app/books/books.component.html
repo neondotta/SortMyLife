@@ -1,3 +1,9 @@
 <p>
-  books works!
+  Lista de livros
 </p>
+
+<div *ngFor="let book of books">
+  <a [routerLink]="[book.id]"> {{ book.title }} </a>
+</div>
+
+<router-outlet></router-outlet>
